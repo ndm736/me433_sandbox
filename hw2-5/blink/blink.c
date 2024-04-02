@@ -1,23 +1,24 @@
-/**
- * Copyright (c) 2020 Raspberry Pi (Trading) Ltd.
- *
- * SPDX-License-Identifier: BSD-3-Clause
- */
-
+#include <stdio.h>
 #include "pico/stdlib.h"
-
+#include "hardware/adc.h"
 int main() {
-#ifndef PICO_DEFAULT_LED_PIN
-#warning blink example requires a board with a regular LED
-#else
-    const uint LED_PIN = PICO_DEFAULT_LED_PIN;
-    gpio_init(LED_PIN);
-    gpio_set_dir(LED_PIN, GPIO_OUT);
-    while (true) {
-        gpio_put(LED_PIN, 1);
-        sleep_ms(500);
-        gpio_put(LED_PIN, 0);
-        sleep_ms(500);
+    stdio_init_all();
+    while (!stdio_usb_connected()) {
+        sleep_ms(100);
     }
-#endif
+    printf("Start!\n");
+
+    adc_init(); // init the adc module
+adc_gpio_init(26); // set ADC0 pin to be adc input instead of GPIO
+adc_select_input(0); // select to read from ADC0
+ 
+    while (1) {
+        char message[100];
+        scanf("%s", message);
+        printf("message: %s\r\n",message);
+        sleep_ms(50);
+
+        uint16_t result = adc_read();
+        printf("value: %d\r\n",result);
+    }
 }
