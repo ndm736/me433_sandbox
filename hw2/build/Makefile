@@ -207,6 +207,19 @@ ELF2UF2Build/fast:
 	$(MAKE) $(MAKESILENT) -f blink/CMakeFiles/ELF2UF2Build.dir/build.make blink/CMakeFiles/ELF2UF2Build.dir/build
 .PHONY : ELF2UF2Build/fast
 
+#=============================================================================
+# Target rules for targets named adc
+
+# Build rule for target.
+adc: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 adc
+.PHONY : adc
+
+# fast build rule for target.
+adc/fast:
+	$(MAKE) $(MAKESILENT) -f adc/CMakeFiles/adc.dir/build.make adc/CMakeFiles/adc.dir/build
+.PHONY : adc/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -220,6 +233,7 @@ help:
 	@echo "... bs2_default_bin"
 	@echo "... bs2_default_padded_checksummed_asm"
 	@echo "... cyw43_driver_picow_cyw43_bus_pio_spi_pio_h"
+	@echo "... adc"
 	@echo "... blink"
 	@echo "... bs2_default"
 .PHONY : help

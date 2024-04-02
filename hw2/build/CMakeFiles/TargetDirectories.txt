@@ -169,3 +169,6 @@
 /Users/nickmarchuk/Documents/GitHub/me433_sandbox/hw2/build/blink/CMakeFiles/ELF2UF2Build.dir
 /Users/nickmarchuk/Documents/GitHub/me433_sandbox/hw2/build/blink/CMakeFiles/edit_cache.dir
 /Users/nickmarchuk/Documents/GitHub/me433_sandbox/hw2/build/blink/CMakeFiles/rebuild_cache.dir
+/Users/nickmarchuk/Documents/GitHub/me433_sandbox/hw2/build/adc/CMakeFiles/adc.dir
+/Users/nickmarchuk/Documents/GitHub/me433_sandbox/hw2/build/adc/CMakeFiles/edit_cache.dir
+/Users/nickmarchuk/Documents/GitHub/me433_sandbox/hw2/build/adc/CMakeFiles/rebuild_cache.dir

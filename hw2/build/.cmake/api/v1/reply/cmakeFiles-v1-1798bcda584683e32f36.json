@@ -681,6 +681,18 @@
 			"isCMake" : true,
 			"isExternal" : true,
 			"path" : "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/ExternalProject/cfgcmd.txt.in"
+		},
+		{
+			"path" : "adc/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/nickmarchuk/me433/2024/pico/pico-sdk/tools/FindELF2UF2.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/ExternalProject.cmake"
 		}
 	],
 	"kind" : "cmakeFiles",
