@@ -1,0 +1,11 @@
+{
+    "cmake.environment": {
+    "PICO_SDK_PATH":"/Users/nickmarchuk/me433/2024/pico/pico-sdk"
+    },
+    "files.associations": {
+      "stdlib.h": "c",
+      "pico.h": "c",
+      "gpio.h": "c",
+      "adc.h": "c"
+    },
+  }
