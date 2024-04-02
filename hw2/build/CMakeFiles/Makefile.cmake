@@ -16,6 +16,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.29.0/CMakeSystem.cmake"
   "blink/elf2uf2/tmp/ELF2UF2Build-mkdirs.cmake"
   "pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/tmp/PioasmBuild-mkdirs.cmake"
+  "/Users/nickmarchuk/Documents/GitHub/me433_sandbox/hw2/cdc/CMakeLists.txt"
   "/Users/nickmarchuk/Documents/GitHub/me433_sandbox/hw2/pico_sdk_import.cmake"
   "/Users/nickmarchuk/me433/2024/pico/pico-sdk/CMakeLists.txt"
   "/Users/nickmarchuk/me433/2024/pico/pico-sdk/cmake/Platform/PICO.cmake"
@@ -252,6 +253,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "blink/elf2uf2/tmp/ELF2UF2Build-cfgcmd.txt"
   "blink/CMakeFiles/CMakeDirectoryInformation.cmake"
   "adc/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "cdc/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -264,4 +266,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "blink/CMakeFiles/blink.dir/DependInfo.cmake"
   "blink/CMakeFiles/ELF2UF2Build.dir/DependInfo.cmake"
   "adc/CMakeFiles/adc.dir/DependInfo.cmake"
+  "cdc/CMakeFiles/cdc.dir/DependInfo.cmake"
   )

@@ -220,6 +220,19 @@ adc/fast:
 	$(MAKE) $(MAKESILENT) -f adc/CMakeFiles/adc.dir/build.make adc/CMakeFiles/adc.dir/build
 .PHONY : adc/fast
 
+#=============================================================================
+# Target rules for targets named cdc
+
+# Build rule for target.
+cdc: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cdc
+.PHONY : cdc
+
+# fast build rule for target.
+cdc/fast:
+	$(MAKE) $(MAKESILENT) -f cdc/CMakeFiles/cdc.dir/build.make cdc/CMakeFiles/cdc.dir/build
+.PHONY : cdc/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -236,6 +249,7 @@ help:
 	@echo "... adc"
 	@echo "... blink"
 	@echo "... bs2_default"
+	@echo "... cdc"
 .PHONY : help
 
 

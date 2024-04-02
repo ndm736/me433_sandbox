@@ -10,7 +10,8 @@
 					[
 						1,
 						81,
-						82
+						82,
+						83
 					],
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
@@ -845,7 +846,7 @@
 					"targetIndexes" : 
 					[
 						1,
-						7
+						8
 					]
 				},
 				{
@@ -1041,6 +1042,21 @@
 					[
 						2
 					]
+				},
+				{
+					"build" : "cdc",
+					"jsonFile" : "directory-cdc-Debug-b085da1fe3bbdbac5623.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "cdc",
+					"targetIndexes" : 
+					[
+						7
+					]
 				}
 			],
 			"name" : "Debug",
@@ -1055,14 +1071,16 @@
 					[
 						0,
 						81,
-						82
+						82,
+						83
 					],
 					"name" : "nick_pico_examples",
 					"targetIndexes" : 
 					[
 						0,
 						2,
-						3
+						3,
+						7
 					]
 				},
 				{
@@ -1157,7 +1175,7 @@
 						4,
 						5,
 						6,
-						7
+						8
 					]
 				}
 			],
@@ -1211,6 +1229,13 @@
 					"jsonFile" : "target-bs2_default_padded_checksummed_asm-Debug-383f7d2c8e2675eade94.json",
 					"name" : "bs2_default_padded_checksummed_asm",
 					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 83,
+					"id" : "cdc::@0bca370656f61ed66044",
+					"jsonFile" : "target-cdc-Debug-a44ea764833c2e5f96d8.json",
+					"name" : "cdc",
+					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 66,
