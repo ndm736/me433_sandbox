@@ -1,0 +1,376 @@
+The target system is: PICO -  - cortex-m0plus
+The host system is: Windows - 10.0.22621 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.2 Rel1/bin/arm-none-eabi-gcc.exe 
+Build flags: ;-mcpu=cortex-m0plus;-mthumb
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is GNU, found in "C:/Users/nickm/Documents/GitHub/me433_sandbox/hw2-windows/build/CMakeFiles/3.25.2/CompilerIdC/CMakeCCompilerId.o"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.2 Rel1/bin/arm-none-eabi-g++.exe 
+Build flags: ;-mcpu=cortex-m0plus;-mthumb
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is GNU, found in "C:/Users/nickm/Documents/GitHub/me433_sandbox/hw2-windows/build/CMakeFiles/3.25.2/CompilerIdCXX/CMakeCXXCompilerId.o"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/nickm/Documents/GitHub/me433_sandbox/hw2-windows/build/CMakeFiles/CMakeScratch/TryCompile-e52ggl
+
+Run Build Command(s):C:/PROGRA~1/RASPBE~1/PICOSD~1.1/ninja/ninja.exe cmTC_c5394 && [1/2] Building C object CMakeFiles/cmTC_c5394.dir/CMakeCCompilerABI.c.obj
+Using built-in specs.
+COLLECT_GCC=C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE
+Target: arm-none-eabi
+Configured with: /data/jenkins/workspace/GNU-toolchain/arm-13/src/gcc/configure --target=arm-none-eabi --prefix=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/install --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/install/arm-none-eabi --with-multilib-list=aprofile,rmprofile --with-libiconv-prefix=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --host=i686-w64-mingw32 --with-pkgversion='Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)' --with-bugurl=https://bugs.linaro.org/
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 13.2.1 20231009 (Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)) 
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_c5394.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_c5394.dir/'
+ C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../libexec/gcc/arm-none-eabi/13.2.1/cc1.exe -quiet -v -imultilib thumb/v6-m/nofp -iprefix C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/ -isysroot C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../arm-none-eabi -D__USES_INITFINI__ C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/cmake/share/cmake-3.25/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_c5394.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -version -o C:\Users\nickm\AppData\Local\Temp\cc1wRkZj.s
+GNU C17 (Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)) version 13.2.1 20231009 (arm-none-eabi)
+	compiled by GNU C version 9.3-win32 20200320, GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/lib/gcc/../../lib/gcc/arm-none-eabi/13.2.1/include"
+ignoring nonexistent directory "C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../arm-none-eabi/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/install/lib/gcc/arm-none-eabi/13.2.1/../../../../include"
+ignoring duplicate directory "C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/lib/gcc/../../lib/gcc/arm-none-eabi/13.2.1/include-fixed"
+ignoring duplicate directory "C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/lib/gcc/../../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include"
+ignoring duplicate directory "C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../arm-none-eabi/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/include
+ C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/include-fixed
+ C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include
+End of search list.
+Compiler executable checksum: cb09303cfa46f5ecbf59d9467eac8678
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_c5394.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_c5394.dir/'
+ C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_c5394.dir/CMakeCCompilerABI.c.obj C:\Users\nickm\AppData\Local\Temp\cc1wRkZj.s
+GNU assembler version 2.41.0 (arm-none-eabi) using BFD version (Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)) 2.41.0.20231009
+COMPILER_PATH=C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../libexec/gcc/arm-none-eabi/13.2.1/;C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../libexec/gcc/;C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/;C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/;C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/;C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/;C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/;C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/;C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_c5394.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_c5394.dir/CMakeCCompilerABI.c.'
+[2/2] Linking C executable cmTC_c5394.elf
+Using built-in specs.
+COLLECT_GCC=C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE
+COLLECT_LTO_WRAPPER=C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../libexec/gcc/arm-none-eabi/13.2.1/lto-wrapper.exe
+Target: arm-none-eabi
+Configured with: /data/jenkins/workspace/GNU-toolchain/arm-13/src/gcc/configure --target=arm-none-eabi --prefix=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/install --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/install/arm-none-eabi --with-multilib-list=aprofile,rmprofile --with-libiconv-prefix=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --host=i686-w64-mingw32 --with-pkgversion='Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)' --with-bugurl=https://bugs.linaro.org/
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 13.2.1 20231009 (Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)) 
+COMPILER_PATH=C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../libexec/gcc/arm-none-eabi/13.2.1/;C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../libexec/gcc/;C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/;C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/;C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/;C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/;C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/;C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/;C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_c5394.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_c5394.elf.'
+ C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../libexec/gcc/arm-none-eabi/13.2.1/collect2.exe -plugin C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../libexec/gcc/arm-none-eabi/13.2.1/liblto_plugin.dll -plugin-opt=C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../libexec/gcc/arm-none-eabi/13.2.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\nickm\AppData\Local\Temp\ccNzsgNu.res --sysroot=C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../arm-none-eabi -X -o cmTC_c5394.elf -LC:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp -LC:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -LC:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -LC:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1 -LC:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc -LC:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib -LC:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_c5394.dir/CMakeCCompilerABI.c.obj
+C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00008000
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_c5394.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_c5394.elf.'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/include]
+    add: [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/include-fixed]
+    add: [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include]
+  end of search list found
+  collapse include dir [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/include] ==> [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.2 Rel1/lib/gcc/arm-none-eabi/13.2.1/include]
+  collapse include dir [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/include-fixed] ==> [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.2 Rel1/lib/gcc/arm-none-eabi/13.2.1/include-fixed]
+  collapse include dir [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include] ==> [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.2 Rel1/arm-none-eabi/include]
+  implicit include dirs: [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.2 Rel1/lib/gcc/arm-none-eabi/13.2.1/include;C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.2 Rel1/lib/gcc/arm-none-eabi/13.2.1/include-fixed;C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.2 Rel1/arm-none-eabi/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-none-eabi-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/nickm/Documents/GitHub/me433_sandbox/hw2-windows/build/CMakeFiles/CMakeScratch/TryCompile-e52ggl]
+  ignore line: []
+  ignore line: [Run Build Command(s):C:/PROGRA~1/RASPBE~1/PICOSD~1.1/ninja/ninja.exe cmTC_c5394 && [1/2] Building C object CMakeFiles/cmTC_c5394.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE]
+  ignore line: [Target: arm-none-eabi]
+  ignore line: [Configured with: /data/jenkins/workspace/GNU-toolchain/arm-13/src/gcc/configure --target=arm-none-eabi --prefix=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/install --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/install/arm-none-eabi --with-multilib-list=aprofile,rmprofile --with-libiconv-prefix=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --host=i686-w64-mingw32 --with-pkgversion='Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)' --with-bugurl=https://bugs.linaro.org/]
+  ignore line: [Thread model: single]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 13.2.1 20231009 (Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_c5394.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_c5394.dir/']
+  ignore line: [ C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../libexec/gcc/arm-none-eabi/13.2.1/cc1.exe -quiet -v -imultilib thumb/v6-m/nofp -iprefix C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/ -isysroot C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../arm-none-eabi -D__USES_INITFINI__ C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/cmake/share/cmake-3.25/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_c5394.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -version -o C:\Users\nickm\AppData\Local\Temp\cc1wRkZj.s]
+  ignore line: [GNU C17 (Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)) version 13.2.1 20231009 (arm-none-eabi)]
+  ignore line: [	compiled by GNU C version 9.3-win32 20200320  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/lib/gcc/../../lib/gcc/arm-none-eabi/13.2.1/include"]
+  ignore line: [ignoring nonexistent directory "C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../arm-none-eabi/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/install/lib/gcc/arm-none-eabi/13.2.1/../../../../include"]
+  ignore line: [ignoring duplicate directory "C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/lib/gcc/../../lib/gcc/arm-none-eabi/13.2.1/include-fixed"]
+  ignore line: [ignoring duplicate directory "C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/lib/gcc/../../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include"]
+  ignore line: [ignoring duplicate directory "C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../arm-none-eabi/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/include]
+  ignore line: [ C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/include-fixed]
+  ignore line: [ C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include]
+  ignore line: [End of search list.]
+  ignore line: [Compiler executable checksum: cb09303cfa46f5ecbf59d9467eac8678]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_c5394.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_c5394.dir/']
+  ignore line: [ C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_c5394.dir/CMakeCCompilerABI.c.obj C:\Users\nickm\AppData\Local\Temp\cc1wRkZj.s]
+  ignore line: [GNU assembler version 2.41.0 (arm-none-eabi) using BFD version (Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)) 2.41.0.20231009]
+  ignore line: [COMPILER_PATH=C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../libexec/gcc/arm-none-eabi/13.2.1/]
+  ignore line: [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../libexec/gcc/]
+  ignore line: [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/]
+  ignore line: [LIBRARY_PATH=C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/]
+  ignore line: [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/]
+  ignore line: [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/]
+  ignore line: [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/]
+  ignore line: [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/]
+  ignore line: [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/]
+  ignore line: [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../arm-none-eabi/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_c5394.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_c5394.dir/CMakeCCompilerABI.c.']
+  ignore line: [[2/2] Linking C executable cmTC_c5394.elf]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE]
+  ignore line: [COLLECT_LTO_WRAPPER=C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../libexec/gcc/arm-none-eabi/13.2.1/lto-wrapper.exe]
+  ignore line: [Target: arm-none-eabi]
+  ignore line: [Configured with: /data/jenkins/workspace/GNU-toolchain/arm-13/src/gcc/configure --target=arm-none-eabi --prefix=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/install --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/install/arm-none-eabi --with-multilib-list=aprofile,rmprofile --with-libiconv-prefix=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --host=i686-w64-mingw32 --with-pkgversion='Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)' --with-bugurl=https://bugs.linaro.org/]
+  ignore line: [Thread model: single]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 13.2.1 20231009 (Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)) ]
+  ignore line: [COMPILER_PATH=C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../libexec/gcc/arm-none-eabi/13.2.1/]
+  ignore line: [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../libexec/gcc/]
+  ignore line: [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/]
+  ignore line: [LIBRARY_PATH=C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/]
+  ignore line: [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/]
+  ignore line: [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/]
+  ignore line: [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/]
+  ignore line: [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/]
+  ignore line: [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/]
+  ignore line: [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../arm-none-eabi/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_c5394.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_c5394.elf.']
+  link line: [ C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../libexec/gcc/arm-none-eabi/13.2.1/collect2.exe -plugin C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../libexec/gcc/arm-none-eabi/13.2.1/liblto_plugin.dll -plugin-opt=C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../libexec/gcc/arm-none-eabi/13.2.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\nickm\AppData\Local\Temp\ccNzsgNu.res --sysroot=C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../arm-none-eabi -X -o cmTC_c5394.elf -LC:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp -LC:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -LC:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -LC:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1 -LC:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc -LC:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib -LC:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_c5394.dir/CMakeCCompilerABI.c.obj]
+    arg [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../libexec/gcc/arm-none-eabi/13.2.1/collect2.exe] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../libexec/gcc/arm-none-eabi/13.2.1/liblto_plugin.dll] ==> ignore
+    arg [-plugin-opt=C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../libexec/gcc/arm-none-eabi/13.2.1/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\nickm\AppData\Local\Temp\ccNzsgNu.res] ==> ignore
+    arg [--sysroot=C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../arm-none-eabi] ==> ignore
+    arg [-X] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_c5394.elf] ==> ignore
+    arg [-LC:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp] ==> dir [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp]
+    arg [-LC:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp] ==> dir [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp]
+    arg [-LC:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../arm-none-eabi/lib/thumb/v6-m/nofp] ==> dir [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../arm-none-eabi/lib/thumb/v6-m/nofp]
+    arg [-LC:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1] ==> dir [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1]
+    arg [-LC:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc] ==> dir [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc]
+    arg [-LC:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib] ==> dir [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib]
+    arg [-LC:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../arm-none-eabi/lib] ==> dir [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../arm-none-eabi/lib]
+    arg [--build-id=none] ==> ignore
+    arg [CMakeFiles/cmTC_c5394.dir/CMakeCCompilerABI.c.obj] ==> ignore
+  collapse library dir [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp] ==> [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.2 Rel1/lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp]
+  collapse library dir [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp] ==> [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.2 Rel1/arm-none-eabi/lib/thumb/v6-m/nofp]
+  collapse library dir [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../arm-none-eabi/lib/thumb/v6-m/nofp] ==> [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.2 Rel1/arm-none-eabi/lib/thumb/v6-m/nofp]
+  collapse library dir [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1] ==> [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.2 Rel1/lib/gcc/arm-none-eabi/13.2.1]
+  collapse library dir [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc] ==> [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.2 Rel1/lib/gcc]
+  collapse library dir [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib] ==> [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.2 Rel1/arm-none-eabi/lib]
+  collapse library dir [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../arm-none-eabi/lib] ==> [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.2 Rel1/arm-none-eabi/lib]
+  implicit libs: []
+  implicit objs: []
+  implicit dirs: [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.2 Rel1/lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp;C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.2 Rel1/arm-none-eabi/lib/thumb/v6-m/nofp;C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.2 Rel1/lib/gcc/arm-none-eabi/13.2.1;C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.2 Rel1/lib/gcc;C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.2 Rel1/arm-none-eabi/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/nickm/Documents/GitHub/me433_sandbox/hw2-windows/build/CMakeFiles/CMakeScratch/TryCompile-kf2mfk
+
+Run Build Command(s):C:/PROGRA~1/RASPBE~1/PICOSD~1.1/ninja/ninja.exe cmTC_12655 && [1/2] Building CXX object CMakeFiles/cmTC_12655.dir/CMakeCXXCompilerABI.cpp.obj
+Using built-in specs.
+COLLECT_GCC=C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR10B2~1.EXE
+Target: arm-none-eabi
+Configured with: /data/jenkins/workspace/GNU-toolchain/arm-13/src/gcc/configure --target=arm-none-eabi --prefix=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/install --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/install/arm-none-eabi --with-multilib-list=aprofile,rmprofile --with-libiconv-prefix=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --host=i686-w64-mingw32 --with-pkgversion='Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)' --with-bugurl=https://bugs.linaro.org/
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 13.2.1 20231009 (Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)) 
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_12655.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_12655.dir/'
+ C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../libexec/gcc/arm-none-eabi/13.2.1/cc1plus.exe -quiet -v -imultilib thumb/v6-m/nofp -iprefix C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/ -isysroot C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../arm-none-eabi -D__USES_INITFINI__ C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/cmake/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_12655.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -version -o C:\Users\nickm\AppData\Local\Temp\cc9AWfCK.s
+GNU C++17 (Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)) version 13.2.1 20231009 (arm-none-eabi)
+	compiled by GNU C version 9.3-win32 20200320, GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/lib/gcc/../../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1"
+ignoring duplicate directory "C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/lib/gcc/../../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1/arm-none-eabi/thumb/v6-m/nofp"
+ignoring duplicate directory "C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/lib/gcc/../../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1/backward"
+ignoring duplicate directory "C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/lib/gcc/../../lib/gcc/arm-none-eabi/13.2.1/include"
+ignoring nonexistent directory "C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../arm-none-eabi/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/install/lib/gcc/arm-none-eabi/13.2.1/../../../../include"
+ignoring duplicate directory "C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/lib/gcc/../../lib/gcc/arm-none-eabi/13.2.1/include-fixed"
+ignoring duplicate directory "C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/lib/gcc/../../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include"
+ignoring duplicate directory "C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../arm-none-eabi/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1
+ C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1/arm-none-eabi/thumb/v6-m/nofp
+ C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1/backward
+ C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/include
+ C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/include-fixed
+ C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include
+End of search list.
+Compiler executable checksum: a40e8addbeb3630b34e653a108e6a4b8
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_12655.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_12655.dir/'
+ C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_12655.dir/CMakeCXXCompilerABI.cpp.obj C:\Users\nickm\AppData\Local\Temp\cc9AWfCK.s
+GNU assembler version 2.41.0 (arm-none-eabi) using BFD version (Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)) 2.41.0.20231009
+COMPILER_PATH=C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../libexec/gcc/arm-none-eabi/13.2.1/;C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../libexec/gcc/;C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/;C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/;C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/;C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/;C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/;C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/;C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_12655.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_12655.dir/CMakeCXXCompilerABI.cpp.'
+[2/2] Linking CXX executable cmTC_12655.elf
+Using built-in specs.
+COLLECT_GCC=C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR10B2~1.EXE
+COLLECT_LTO_WRAPPER=C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../libexec/gcc/arm-none-eabi/13.2.1/lto-wrapper.exe
+Target: arm-none-eabi
+Configured with: /data/jenkins/workspace/GNU-toolchain/arm-13/src/gcc/configure --target=arm-none-eabi --prefix=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/install --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/install/arm-none-eabi --with-multilib-list=aprofile,rmprofile --with-libiconv-prefix=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --host=i686-w64-mingw32 --with-pkgversion='Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)' --with-bugurl=https://bugs.linaro.org/
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 13.2.1 20231009 (Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)) 
+COMPILER_PATH=C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../libexec/gcc/arm-none-eabi/13.2.1/;C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../libexec/gcc/;C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/;C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/;C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/;C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/;C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/;C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/;C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_12655.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_12655.elf.'
+ C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../libexec/gcc/arm-none-eabi/13.2.1/collect2.exe -plugin C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../libexec/gcc/arm-none-eabi/13.2.1/liblto_plugin.dll -plugin-opt=C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../libexec/gcc/arm-none-eabi/13.2.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\nickm\AppData\Local\Temp\ccvMkx8O.res --sysroot=C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../arm-none-eabi -X -o cmTC_12655.elf -LC:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp -LC:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -LC:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -LC:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1 -LC:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc -LC:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib -LC:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_12655.dir/CMakeCXXCompilerABI.cpp.obj
+C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00008000
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_12655.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_12655.elf.'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1]
+    add: [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1/arm-none-eabi/thumb/v6-m/nofp]
+    add: [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1/backward]
+    add: [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/include]
+    add: [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/include-fixed]
+    add: [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include]
+  end of search list found
+  collapse include dir [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1] ==> [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.2 Rel1/arm-none-eabi/include/c++/13.2.1]
+  collapse include dir [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1/arm-none-eabi/thumb/v6-m/nofp] ==> [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.2 Rel1/arm-none-eabi/include/c++/13.2.1/arm-none-eabi/thumb/v6-m/nofp]
+  collapse include dir [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1/backward] ==> [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.2 Rel1/arm-none-eabi/include/c++/13.2.1/backward]
+  collapse include dir [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/include] ==> [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.2 Rel1/lib/gcc/arm-none-eabi/13.2.1/include]
+  collapse include dir [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/include-fixed] ==> [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.2 Rel1/lib/gcc/arm-none-eabi/13.2.1/include-fixed]
+  collapse include dir [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include] ==> [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.2 Rel1/arm-none-eabi/include]
+  implicit include dirs: [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.2 Rel1/arm-none-eabi/include/c++/13.2.1;C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.2 Rel1/arm-none-eabi/include/c++/13.2.1/arm-none-eabi/thumb/v6-m/nofp;C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.2 Rel1/arm-none-eabi/include/c++/13.2.1/backward;C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.2 Rel1/lib/gcc/arm-none-eabi/13.2.1/include;C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.2 Rel1/lib/gcc/arm-none-eabi/13.2.1/include-fixed;C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.2 Rel1/arm-none-eabi/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-none-eabi-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/nickm/Documents/GitHub/me433_sandbox/hw2-windows/build/CMakeFiles/CMakeScratch/TryCompile-kf2mfk]
+  ignore line: []
+  ignore line: [Run Build Command(s):C:/PROGRA~1/RASPBE~1/PICOSD~1.1/ninja/ninja.exe cmTC_12655 && [1/2] Building CXX object CMakeFiles/cmTC_12655.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR10B2~1.EXE]
+  ignore line: [Target: arm-none-eabi]
+  ignore line: [Configured with: /data/jenkins/workspace/GNU-toolchain/arm-13/src/gcc/configure --target=arm-none-eabi --prefix=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/install --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/install/arm-none-eabi --with-multilib-list=aprofile,rmprofile --with-libiconv-prefix=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --host=i686-w64-mingw32 --with-pkgversion='Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)' --with-bugurl=https://bugs.linaro.org/]
+  ignore line: [Thread model: single]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 13.2.1 20231009 (Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_12655.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_12655.dir/']
+  ignore line: [ C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../libexec/gcc/arm-none-eabi/13.2.1/cc1plus.exe -quiet -v -imultilib thumb/v6-m/nofp -iprefix C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/ -isysroot C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../arm-none-eabi -D__USES_INITFINI__ C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/cmake/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_12655.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -version -o C:\Users\nickm\AppData\Local\Temp\cc9AWfCK.s]
+  ignore line: [GNU C++17 (Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)) version 13.2.1 20231009 (arm-none-eabi)]
+  ignore line: [	compiled by GNU C version 9.3-win32 20200320  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/lib/gcc/../../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1"]
+  ignore line: [ignoring duplicate directory "C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/lib/gcc/../../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1/arm-none-eabi/thumb/v6-m/nofp"]
+  ignore line: [ignoring duplicate directory "C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/lib/gcc/../../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1/backward"]
+  ignore line: [ignoring duplicate directory "C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/lib/gcc/../../lib/gcc/arm-none-eabi/13.2.1/include"]
+  ignore line: [ignoring nonexistent directory "C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../arm-none-eabi/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/install/lib/gcc/arm-none-eabi/13.2.1/../../../../include"]
+  ignore line: [ignoring duplicate directory "C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/lib/gcc/../../lib/gcc/arm-none-eabi/13.2.1/include-fixed"]
+  ignore line: [ignoring duplicate directory "C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/lib/gcc/../../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include"]
+  ignore line: [ignoring duplicate directory "C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../arm-none-eabi/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1]
+  ignore line: [ C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1/arm-none-eabi/thumb/v6-m/nofp]
+  ignore line: [ C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1/backward]
+  ignore line: [ C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/include]
+  ignore line: [ C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/include-fixed]
+  ignore line: [ C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include]
+  ignore line: [End of search list.]
+  ignore line: [Compiler executable checksum: a40e8addbeb3630b34e653a108e6a4b8]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_12655.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_12655.dir/']
+  ignore line: [ C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_12655.dir/CMakeCXXCompilerABI.cpp.obj C:\Users\nickm\AppData\Local\Temp\cc9AWfCK.s]
+  ignore line: [GNU assembler version 2.41.0 (arm-none-eabi) using BFD version (Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)) 2.41.0.20231009]
+  ignore line: [COMPILER_PATH=C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../libexec/gcc/arm-none-eabi/13.2.1/]
+  ignore line: [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../libexec/gcc/]
+  ignore line: [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/]
+  ignore line: [LIBRARY_PATH=C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/]
+  ignore line: [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/]
+  ignore line: [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/]
+  ignore line: [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/]
+  ignore line: [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/]
+  ignore line: [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/]
+  ignore line: [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../arm-none-eabi/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_12655.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_12655.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [[2/2] Linking CXX executable cmTC_12655.elf]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR10B2~1.EXE]
+  ignore line: [COLLECT_LTO_WRAPPER=C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../libexec/gcc/arm-none-eabi/13.2.1/lto-wrapper.exe]
+  ignore line: [Target: arm-none-eabi]
+  ignore line: [Configured with: /data/jenkins/workspace/GNU-toolchain/arm-13/src/gcc/configure --target=arm-none-eabi --prefix=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/install --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/install/arm-none-eabi --with-multilib-list=aprofile,rmprofile --with-libiconv-prefix=/data/jenkins/workspace/GNU-toolchain/arm-13/build-mingw-arm-none-eabi/host-tools --host=i686-w64-mingw32 --with-pkgversion='Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)' --with-bugurl=https://bugs.linaro.org/]
+  ignore line: [Thread model: single]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 13.2.1 20231009 (Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)) ]
+  ignore line: [COMPILER_PATH=C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../libexec/gcc/arm-none-eabi/13.2.1/]
+  ignore line: [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../libexec/gcc/]
+  ignore line: [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/]
+  ignore line: [LIBRARY_PATH=C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/]
+  ignore line: [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/]
+  ignore line: [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/]
+  ignore line: [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/]
+  ignore line: [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/]
+  ignore line: [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/]
+  ignore line: [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../arm-none-eabi/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_12655.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_12655.elf.']
+  link line: [ C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../libexec/gcc/arm-none-eabi/13.2.1/collect2.exe -plugin C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../libexec/gcc/arm-none-eabi/13.2.1/liblto_plugin.dll -plugin-opt=C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../libexec/gcc/arm-none-eabi/13.2.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\nickm\AppData\Local\Temp\ccvMkx8O.res --sysroot=C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../arm-none-eabi -X -o cmTC_12655.elf -LC:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp -LC:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -LC:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -LC:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1 -LC:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc -LC:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib -LC:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_12655.dir/CMakeCXXCompilerABI.cpp.obj]
+    arg [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../libexec/gcc/arm-none-eabi/13.2.1/collect2.exe] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../libexec/gcc/arm-none-eabi/13.2.1/liblto_plugin.dll] ==> ignore
+    arg [-plugin-opt=C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../libexec/gcc/arm-none-eabi/13.2.1/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\nickm\AppData\Local\Temp\ccvMkx8O.res] ==> ignore
+    arg [--sysroot=C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../arm-none-eabi] ==> ignore
+    arg [-X] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_12655.elf] ==> ignore
+    arg [-LC:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp] ==> dir [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp]
+    arg [-LC:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp] ==> dir [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp]
+    arg [-LC:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../arm-none-eabi/lib/thumb/v6-m/nofp] ==> dir [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../arm-none-eabi/lib/thumb/v6-m/nofp]
+    arg [-LC:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1] ==> dir [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1]
+    arg [-LC:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc] ==> dir [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc]
+    arg [-LC:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib] ==> dir [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib]
+    arg [-LC:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../arm-none-eabi/lib] ==> dir [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../arm-none-eabi/lib]
+    arg [--build-id=none] ==> ignore
+    arg [CMakeFiles/cmTC_12655.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+  collapse library dir [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp] ==> [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.2 Rel1/lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp]
+  collapse library dir [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp] ==> [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.2 Rel1/arm-none-eabi/lib/thumb/v6-m/nofp]
+  collapse library dir [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../arm-none-eabi/lib/thumb/v6-m/nofp] ==> [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.2 Rel1/arm-none-eabi/lib/thumb/v6-m/nofp]
+  collapse library dir [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1] ==> [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.2 Rel1/lib/gcc/arm-none-eabi/13.2.1]
+  collapse library dir [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc] ==> [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.2 Rel1/lib/gcc]
+  collapse library dir [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib] ==> [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.2 Rel1/arm-none-eabi/lib]
+  collapse library dir [C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/bin/../arm-none-eabi/lib] ==> [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.2 Rel1/arm-none-eabi/lib]
+  implicit libs: []
+  implicit objs: []
+  implicit dirs: [C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.2 Rel1/lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp;C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.2 Rel1/arm-none-eabi/lib/thumb/v6-m/nofp;C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.2 Rel1/lib/gcc/arm-none-eabi/13.2.1;C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.2 Rel1/lib/gcc;C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.2 Rel1/arm-none-eabi/lib]
+  implicit fwks: []
+
+
+Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+arm-none-eabi-gcc.exe (Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)) 13.2.1 20231009
+Copyright (C) 2023 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
